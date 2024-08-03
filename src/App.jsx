@@ -48,7 +48,7 @@ const App = () => {
 						</h1>
 
 						<p className="sm:w-full max-w-[450px] md:max-w-[650px] text-[17px] text-center text-light-gray lg:text-[18px]">
-							Our team specializes in creating software solutions that
+							Our team specializes in creating web applications that
 							perfectly align with your business needs by combining 
 							innovative technology with proven strategies.
 						</p>
