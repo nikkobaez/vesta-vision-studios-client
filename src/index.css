@@ -18,6 +18,17 @@ html {
   @apply text-[32px] md:text-[42px] lg:text-[48px] leading-tight
 }
 
+.h2 {
+  @apply text-[32px] md:text-[42px] leading-tight
+}
+
+.button-liquid-fill {
+  background-image: url('./assets/liquid.png');
+  background-repeat: repeat-x;
+  background-position: 0 -100%;
+  transition: 1.5s ease;
+}
+
 @keyframes growAndShrink1 {
   0% {
     height: 20px;
