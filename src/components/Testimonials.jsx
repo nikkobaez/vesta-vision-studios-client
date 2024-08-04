@@ -81,7 +81,7 @@ const Testimonials = () => {
                                 It is evident that their team is highly skilled. They tackled every challenge with 
                                 expertise and their commitment to qualiy was aparent during the extensive testing
                                 phase we had to go through. I felt reassured knowing that they were thoroughly going
-                                over every detail before launch. Speaking of the launch it was flawless.
+                                over every detail before launch.
                             </p>
                         </div>
                     </swiper-slide>
