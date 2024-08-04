@@ -2,14 +2,14 @@ import { HeroLogo, HeroProfile1, HeroProfile2, HeroProfile3, HeroProfile4 } from
 
 const Hero = () => {
     return (
-        <section className='flex flex-col justify-center items-center gap-16 mt-12 px-5 sm:px-20 min-w-screen min-h-screen'>
+        <section className='flex flex-col justify-center items-center gap-16 mt-12 px-8 sm:px-20 min-w-screen min-h-screen'>
             {/* TOP HOME CONTAINER */}
             <div className="flex flex-col justify-center items-center gap-6">
                 <h1 className="max-w-[550px] md:max-w-[650px] font-bold text-center text-white h1">
                     Empowering Your Vision With Custom Designed Software
                 </h1>
 
-                <p className="sm:w-full max-w-[450px] md:max-w-[650px] text-[17px] text-center text-light-gray lg:text-[18px]">
+                <p className="sm:w-full max-w-[450px] md:max-w-[650px] text-[17px] text-center text-light-gray lg:text-[18px] leading-7">
                     Our team specializes in creating web applications that
                     perfectly align with your business needs by combining 
                     innovative technology with proven strategies.
@@ -21,7 +21,7 @@ const Hero = () => {
             </div>
 
             {/* BOTTOM HOME CONTAINER */}
-            <div className='flex lg:flex-row flex-col gap-8 bg-primary mx-auto p-8 rounded-2xl w-[325px] sm:w-[375px] md:w-[425px] lg:w-[800px] h-fit'>	
+            <div className='flex lg:flex-row flex-col gap-8 bg-primary mx-auto p-8 rounded-2xl w-full sm:w-[375px] md:w-[425px] lg:w-[800px] h-fit'>	
                 {/* LEFT DASHBOARD CONTAINER */}
                 <div className='flex flex-col flex-1 justify-center items-center gap-5 bg-secondary py-5 rounded-2xl'>
                     {/* TOP */}
