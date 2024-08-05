@@ -6,16 +6,16 @@ const Hero = () => {
             {/* TOP HOME CONTAINER */}
             <div className="flex flex-col justify-center items-center gap-6">
                 <h1 className="max-w-[550px] md:max-w-[650px] font-bold text-center text-white h1">
-                    Empowering Your Vision With Custom Designed Software
+                    Empowering Your Vision With Custom Designed Websites
                 </h1>
 
                 <p className="sm:w-full max-w-[450px] md:max-w-[650px] text-[17px] text-center text-light-gray lg:text-[18px] leading-7">
-                    Our team specializes in creating web applications that
+                    Our team specializes in creating webites that
                     perfectly align with your business needs by combining 
-                    innovative technology with proven strategies.
+                    innovative technology with a proven strategic approach.
                 </p>
 
-                <button className="flex items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg text-white hover:scale-[1.05] transition-all duration-500">
+                <button className="flex items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg font-medium text-white hover:scale-[1.05] transition-all duration-500">
                     Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
                 </button>
             </div>

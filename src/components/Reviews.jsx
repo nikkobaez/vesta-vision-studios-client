@@ -1,13 +1,13 @@
 import { breakpoints } from "../constants"
 import { TestimonalProfile1, TestimonalProfile2, TestimonalProfile3, TestimonalProfile4, TestimonalRating } from "../assets"
 
-const Testimonials = () => {
+const Reviews = () => {
     return (
-        <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-28 px-8 sm:px-20"> 
+        <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-32 px-8 sm:px-20"> 
             {/* TITLE CONTAINER */}
             <div className="flex flex-col justify-center items-center gap-6 w-full">
                 <h2 className="font-bold text-center text-white h2">
-                    Testimonials
+                    Reviews From Our Clients
                 </h2>
             </div>
             {/* SLIDES CONTAINER */}
@@ -116,4 +116,4 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials
+export default Reviews

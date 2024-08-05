@@ -18,7 +18,8 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 10s linear infinite',
-        'pulse-slow': 'pulse 3.5s linear infinite'
+        'pulse-slow': 'pulse 3.5s linear infinite',
+        'bounce-slow': 'bounce 1.5s linear infinite'
       },
       colors: {
         "light-gray": "#9E9E9E"

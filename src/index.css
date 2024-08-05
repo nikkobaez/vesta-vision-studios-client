@@ -29,6 +29,13 @@ html {
   transition: 1.5s ease;
 }
 
+.button-slide-fill {
+  background-image: url('./assets/images/fill.png');
+  background-repeat: repeat-y;
+  background-position: 350% 0;
+  transition: 1.5s ease;
+}
+
 @keyframes growAndShrink1 {
   0% {
     height: 20px;

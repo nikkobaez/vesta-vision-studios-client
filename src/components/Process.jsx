@@ -2,9 +2,9 @@ import { ResearchAndStrategyIcon, UIUXDesignIcon, DevelopmentIcon, TestAndValida
 
 const Process = () => {
     return (
-        <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-28 px-8 sm:px-20 py-5"> 
+        <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-32 px-8 sm:px-20 py-5"> 
             {/* TITLE CONTAINER */}
-            <div className="flex flex-col justify-center items-center gap-6 w-full">
+            <div className="flex flex-col justify-center items-center w-full">
                 <h2 className="font-bold text-center text-white h2">
                     Our Development Process
                 </h2>
@@ -26,7 +26,6 @@ const Process = () => {
                             Our first step is to understand your vision and goals and from 
                             there we create an actionable project plan and solutions 
                             roadmap
-
                         </p>
                     </div>
                 </div>
@@ -43,7 +42,7 @@ const Process = () => {
                             UI/UX Design
                         </h2>
                         <p className="text-light-gray leading-7">
-                            Our UI/UX team works with you to design a web application that is 
+                            Our UI/UX team works with you to design a website that is 
                             both beautiful AND functional creating a premium user experience.
                         </p>
                     </div>
@@ -62,7 +61,7 @@ const Process = () => {
                         </h2>
                         <p className="text-light-gray leading-7">
                             Our US-based software developers start to develop the technology,
-                            platforms, and services that will make your web application a success.
+                            platforms, and services that will make your website a success.
                         </p>
                     </div>
                 </div>
@@ -97,7 +96,7 @@ const Process = () => {
                             Launch
                         </h2>
                         <p className="text-light-gray leading-7">
-                            Once your web application is ready for launch, we will handle the 
+                            Once your website is ready for launch, we will handle the 
                             deployment and be on standby to ensure everything runs smoothly.
                         </p>
                     </div>
@@ -115,7 +114,7 @@ const Process = () => {
                             Measure & Refine
                         </h2>
                         <p className="text-light-gray leading-7">
-                            Long term-success means that your web application is meeting 
+                            Long term-success means that your website is meeting 
                             your business goals so we'll measure and optimize consistently.
                         </p>
                     </div>
