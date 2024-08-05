@@ -2,7 +2,7 @@ import { ResearchAndStrategyIcon, UIUXDesignIcon, DevelopmentIcon, TestAndValida
 
 const Process = () => {
     return (
-        <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-32 px-8 sm:px-20 py-5"> 
+        <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-32 px-6 sm:px-20 py-5"> 
             {/* TITLE CONTAINER */}
             <div className="flex flex-col justify-center items-center w-full">
                 <h2 className="font-bold text-center text-white h2">
