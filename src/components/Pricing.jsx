@@ -12,7 +12,7 @@ const Pricing = () => {
             {/* GRID CONTAINER */}
             <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full h-full">
                 {/* GRID ITEM 1 */}
-                <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer group">
+                <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer">
                     {/* TOP CONTAINER */}
                     <div className="flex flex-col items-center gap-5 w-full">
                         <h1 className="font-bold text-[24px] text-white">
@@ -108,14 +108,14 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
+                        <button className="flex items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg text-white">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
                         </button>
                     </div>
                 </div>
 
                 {/* GRID ITEM 2 */}
-                <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer group">
+                <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer">
                     {/* TOP CONTAINER */}
                     <div className="flex flex-col items-center gap-5 w-full">
                         <h1 className="font-bold text-[24px] text-white">
@@ -211,14 +211,14 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
+                        <button className="flex items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg text-white">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
                         </button>
                     </div>
                 </div>
 
                 {/* GRID ITEM 3 */}
-                <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer group">
+                <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer">
                     {/* TOP */}
                     <div className="flex flex-col items-center gap-5 w-full">
                         <h1 className="font-bold text-[24px] text-white">
@@ -314,7 +314,7 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
+                        <button className="flex items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg text-white">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
                         </button>
                     </div>
