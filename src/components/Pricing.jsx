@@ -15,7 +15,7 @@ const Pricing = () => {
                 <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer group">
                     {/* TOP CONTAINER */}
                     <div className="flex flex-col items-center gap-5 w-full">
-                        <h1 className="font-medium text-[22px] text-white">
+                        <h1 className="font-bold text-[24px] text-white">
                             Beginner
                         </h1>
                         <div
@@ -118,7 +118,7 @@ const Pricing = () => {
                 <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer group">
                     {/* TOP CONTAINER */}
                     <div className="flex flex-col items-center gap-5 w-full">
-                        <h1 className="font-medium text-[22px] text-white">
+                        <h1 className="font-bold text-[24px] text-white">
                             Professional
                         </h1>
                         <div
@@ -221,7 +221,7 @@ const Pricing = () => {
                 <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer group">
                     {/* TOP */}
                     <div className="flex flex-col items-center gap-5 w-full">
-                        <h1 className="font-medium text-[22px] text-white">
+                        <h1 className="font-bold text-[24px] text-white">
                             Enterprise
                         </h1>
                         <div

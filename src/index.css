@@ -32,7 +32,7 @@ html {
 .button-slide-fill {
   background-image: url('./assets/images/fill.png');
   background-repeat: repeat-y;
-  background-position: 350% 0;
+  background-position: 425% 0;
   transition: 1.5s ease;
 }
 
