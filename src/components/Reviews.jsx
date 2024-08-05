@@ -5,13 +5,13 @@ const Reviews = () => {
     return (
         <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-32 px-6 sm:px-20"> 
             {/* TITLE CONTAINER */}
-            <div className="flex flex-col justify-center items-center gap-6 w-full">
+            <div className="flex flex-col justify-center items-center gap-6 w-full max-w-7xl">
                 <h2 className="font-bold text-center text-white h2">
                     Reviews From Our Clients
                 </h2>
             </div>
             {/* SLIDES CONTAINER */}
-            <div className="w-full h-fit">
+            <div className="w-full max-w-7xl h-fit">
                 <swiper-container style={{"--swiper-pagination-color": "#FFFFFF",  "--swiper-pagination-bullet-inactive-color":"#FFFFFF"}} breakpoints={JSON.stringify(breakpoints)} pagination="true">
                     {/* SLIDE 1 */}
                     <swiper-slide>

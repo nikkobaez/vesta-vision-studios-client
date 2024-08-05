@@ -4,13 +4,13 @@ const Pricing = () => {
     return (
         <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-32 px-6 sm:px-20 py-5">
             {/* TITLE CONTAINER */}
-            <div className="flex flex-col justify-center items-center w-full">
+            <div className="flex flex-col justify-center items-center w-full max-w-7xl">
                 <h2 className="font-bold text-center text-white h2">
                     Choose Your Plan
                 </h2>
             </div>
             {/* GRID CONTAINER */}
-            <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full h-full">
+            <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full max-w-7xl h-full">
                 {/* GRID ITEM 1 */}
                 <div className="relative flex flex-col flex-1 hover:scale-[1.05] justify-center items-center gap-8 bg-primary px-5 py-8 rounded-2xl min-w-[250px] h-fit transition-all duration-300 hover:cursor-pointer group">
                     {/* TOP CONTAINER */}
