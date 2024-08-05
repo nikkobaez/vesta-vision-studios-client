@@ -108,7 +108,7 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-sm text-white button-slide-fill">
+                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
                         </button>
                     </div>
@@ -211,7 +211,7 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-sm text-white button-slide-fill">
+                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
                         </button>
                     </div>
@@ -314,7 +314,7 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-sm text-white button-slide-fill">
+                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
                         </button>
                     </div>
