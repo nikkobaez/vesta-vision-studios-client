@@ -6,7 +6,7 @@ const Hero = () => {
             {/* TOP HOME CONTAINER */}
             <div className="flex flex-col justify-center items-center gap-6">
                 <h1 className="max-w-[550px] md:max-w-[650px] font-bold text-center text-white h1">
-                    Empowering Your Vision With Custom Designed Websites
+                    Empowering Your Vision With Custom Designed Software
                 </h1>
 
                 <p className="sm:w-full max-w-[450px] md:max-w-[650px] text-[17px] text-center text-light-gray lg:text-[18px] leading-7">
