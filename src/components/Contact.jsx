@@ -12,7 +12,7 @@ const Contact = () => {
     }
 
     return (
-        <section className="flex flex-col justify-center items-center gap-12 mt-20 lg:mt-32 px-6 sm:px-20 py-5">
+        <section id="contact" className="flex flex-col justify-center items-center gap-12 mt-20 lg:mt-32 px-6 sm:px-20 py-5 scroll-offset">
             {/* TITLE CONTAINER */}
             <div className="flex flex-col justify-center items-center w-full max-w-7xl">
                 <h2 className="font-bold text-center text-white h2">

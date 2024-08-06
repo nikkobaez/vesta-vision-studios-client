@@ -12,6 +12,8 @@
 
 html {
     background-color: #000000;
+    scroll-behavior: smooth;
+
 }
 
 .h1 {
@@ -24,6 +26,14 @@ html {
 
 textarea {
   resize: none;
+}
+
+.scroll-offset {
+  scroll-margin-top: 125px;
+}
+
+.nav-is-open {
+  top: 90px
 }
 
 .button-liquid-fill {

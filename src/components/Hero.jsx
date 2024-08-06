@@ -2,22 +2,22 @@ import { HeroLogo, HeroProfile1, HeroProfile2, HeroProfile3, HeroProfile4 } from
 
 const Hero = () => {
     return (
-        <section className='flex flex-col justify-center items-center gap-12 mt-12 px-6 sm:px-20 min-w-screen min-h-screen'>
+        <section id="home" className='flex flex-col justify-center items-center gap-12 mt-[128px] px-6 sm:px-20 min-w-screen min-h-screen scroll-offset'>
             {/* TOP HOME CONTAINER */}
             <div className="flex flex-col justify-center items-center gap-6">
                 <h1 className="max-w-[550px] md:max-w-[650px] font-bold text-center text-white h1">
-                    Empowering Your Vision With Custom Designed Software
+                    Empowering Your Vision With A Custom Designed Website
                 </h1>
 
                 <p className="sm:w-full max-w-[450px] md:max-w-[650px] text-[17px] text-center text-light-gray lg:text-[18px] leading-7">
-                    Our team specializes in creating webites that
+                    Our team specializes in creating websites that
                     perfectly align with your business needs by combining 
                     innovative technology with a proven strategic approach.
                 </p>
 
-                <button className="flex items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg font-medium text-white hover:scale-[1.05] transition-all duration-500">
+                <a href="#contact" className="flex items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg font-medium text-white hover:scale-[1.05] transition-all duration-500">
                     Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
-                </button>
+                </a>
             </div>
 
             {/* BOTTOM HOME CONTAINER */}

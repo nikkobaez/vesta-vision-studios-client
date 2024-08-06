@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
     return (
-        <section className="flex flex-col justify-center items-center gap-12 mt-20 lg:mt-32 px-6 sm:px-20 py-5">
+        <section id="pricing" className="flex flex-col justify-center items-center gap-12 mt-20 lg:mt-32 px-6 sm:px-20 py-5 scroll-offset">
             {/* TITLE CONTAINER */}
             <div className="flex flex-col justify-center items-center w-full max-w-7xl">
                 <h2 className="font-bold text-center text-white h2">
@@ -108,9 +108,9 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
+                        <a href="#contact" className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -211,9 +211,9 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
+                        <a href="#contact" className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -314,9 +314,9 @@ const Pricing = () => {
                                 /month
                             </span>
                         </p>
-                        <button className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
+                        <a href="#contact" className="flex items-center gap-2 bg-tertiary group-hover:bg-center p-3 rounded-lg text-white button-slide-fill">
                             Schedule A Consultation <i className="ri-arrow-right-line text-[16px] text-white"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
