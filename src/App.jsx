@@ -1,4 +1,4 @@
-import { Header, Hero, Process, Pricing, Reviews, Contact } from "./components"
+import { Header, Hero, Process, Pricing, Reviews, Contact, Footer } from "./components"
 
 const App = () => {
 	return (
@@ -11,6 +11,7 @@ const App = () => {
 				<Reviews />
 				<Contact />
 			</main>
+			<Footer />
 		</>
 	)
 }
