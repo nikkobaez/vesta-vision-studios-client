@@ -2,7 +2,7 @@ import { HeroLogo, HeroProfile1, HeroProfile2, HeroProfile3, HeroProfile4 } from
 
 const Hero = () => {
     return (
-        <section className='flex flex-col justify-center items-center gap-16 mt-12 px-6 sm:px-20 min-w-screen min-h-screen'>
+        <section className='flex flex-col justify-center items-center gap-12 mt-12 px-6 sm:px-20 min-w-screen min-h-screen'>
             {/* TOP HOME CONTAINER */}
             <div className="flex flex-col justify-center items-center gap-6">
                 <h1 className="max-w-[550px] md:max-w-[650px] font-bold text-center text-white h1">

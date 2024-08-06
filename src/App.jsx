@@ -1,4 +1,4 @@
-import { Hero, Process, Pricing, Reviews } from "./components"
+import { Hero, Process, Pricing, Reviews, Contact } from "./components"
 
 const App = () => (
 	<>
@@ -7,6 +7,7 @@ const App = () => (
 			<Process />
 			<Pricing />
 			<Reviews />
+			<Contact />
 		</main>
 
 		{/* TEMPORARY - REMOVE LATER */}

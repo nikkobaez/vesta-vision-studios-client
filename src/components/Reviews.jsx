@@ -3,7 +3,7 @@ import { TestimonalProfile1, TestimonalProfile2, TestimonalProfile3, TestimonalP
 
 const Reviews = () => {
     return (
-        <section className="flex flex-col justify-center items-center gap-16 mt-20 lg:mt-32 px-6 sm:px-20"> 
+        <section className="flex flex-col justify-center items-center gap-12 mt-20 lg:mt-32 px-6 sm:px-20"> 
             {/* TITLE CONTAINER */}
             <div className="flex flex-col justify-center items-center gap-6 w-full max-w-7xl">
                 <h2 className="font-bold text-center text-white h2">

@@ -22,6 +22,10 @@ html {
   @apply text-[32px] md:text-[42px] leading-tight
 }
 
+textarea {
+  resize: none;
+}
+
 .button-liquid-fill {
   background-image: url('./assets/images/liquid.png');
   background-repeat: repeat-x;
