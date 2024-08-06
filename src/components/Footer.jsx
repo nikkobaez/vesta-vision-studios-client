@@ -64,7 +64,7 @@ const Footer = () => {
                 </div>
             </footer>
             {/* BOTTOM CONTAINER */}
-            <div className="flex justify-center items-center bg-primary py-8 w-full text-light-gray">
+            <div className="flex justify-center items-center bg-primary py-8 w-full text-center text-light-gray">
                 &#169; Copyright Vesta Vision Studios. All rights reserved
             </div>
         </div>
