@@ -30,7 +30,7 @@ const Footer = () => {
                             <i className="text-[25px] text-white hover:cursor-pointer ri-twitter-x-line"></i>
                         </a>
                         <a href="https://www.linkedin.com">
-                            <i class="text-[28px] text-white hover:cursor-pointer ri-linkedin-fill"></i>
+                            <i className="text-[28px] text-white hover:cursor-pointer ri-linkedin-fill"></i>
                         </a>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Footer = () => {
                             Contact
                         </h3>
                         <p className="text-white">
-                            info@vestavisionstudios.com
+                            vestavisionstudios@gmail.com
                         </p>
                         <p className="text-white">
                             (832) 392-2426

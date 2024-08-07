@@ -1,15 +1,43 @@
+import { useEffect } from "react";
 import { useForm } from "react-hook-form"
+import axios from "axios"
 
 const Contact = () => {
     /* REACT HOOK FORM USE FORM VARIABLES */
-    const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
+    const { register, handleSubmit, reset, formState: { errors, isSubmitting, isSubmitSuccessful} } = useForm({
         shouldFocusError: false
     });
 
     /* REACT HOOK FORM ON SUBMIT FUNCTION */
     const onSubmit = async (data) => {
-        console.log(data)
+        axios.post("https://getform.io/f/amdpgypb", {
+            fullName: data.fullName,
+            businessName: data.businessName,
+            emailAddress: data.emailAddress,
+            phoneNumber: data.phoneNumber,
+            projectDescription: data.projectDescription
+        }, {
+            headers: {'Accept': 'application/json'}
+        })
+        .then((response) => {
+            console.log(response)
+        })
+        .catch((error) => {
+            console.log(error)
+        })
     }
+
+    useEffect(() => {
+        if (isSubmitSuccessful) {
+            reset({
+                fullName: "", 
+                businessName: "",
+                emailAddress: "",
+                phoneNumber: "",
+                projectDescription: "",
+            }, { keepIsSubmitSuccessful: true})
+        }
+    }), [reset, isSubmitSuccessful]
 
     return (
         <section id="contact" className="flex flex-col justify-center items-center gap-12 mt-20 lg:mt-32 px-6 sm:px-20 py-5 scroll-offset">
@@ -110,13 +138,13 @@ const Contact = () => {
                         </p> 
                     )}
                 </div>
-
-
-
                 <div className='flex justify-center items-center w-full'>
-                    <button className="flex justify-center items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg w-[200px] font-medium text-white justify hover:scale-[1.05] transition-all duration-500">
+                    <button disabled={isSubmitting} className="flex justify-center items-center gap-2 bg-gradient-to-r from-[#FF9898] to-[#8054FF] p-3 rounded-lg w-[200px] font-medium text-white justify hover:scale-[1.05] transition-all duration-500">
                         Submit
                     </button>
+                </div>
+                <div className="flex justify-center items-center w-full">
+                    {isSubmitSuccessful && <p className="text-center text-green-500 text-sm"> Form submitted successfully </p>}
                 </div>
             </form>
         </section>

@@ -26,7 +26,7 @@ const Pricing = () => {
                         <div className="flex-1 w-4/5">
                             <ul className="flex flex-col gap-5 list-none">
                                 {price.list.map((item) => (
-                                    <li> 
+                                    <li key={item}> 
                                         <div className="flex items-center gap-3">
                                             <div className="flex justify-center items-center bg-tertiary rounded-md w-7 h-7">
                                                 <i className="text-[18px] text-white ri-check-line"></i>
